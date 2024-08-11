@@ -36,16 +36,23 @@ const brands = [
 
 const Brands = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto p-4 flex  flex-col md:flex-row justify-center items-center gap-4 grayscale">
-      {brands.map((brand, i) => (
-        <Image
-          src={brand.url}
-          alt={brand.alt}
-          width={200}
-          height={100}
-          key={i}
-        />
-      ))}
+    <div
+      className="brand-slider "
+      style={
+        { "--count": brands.length, "--width": "200px" } as React.CSSProperties
+      }
+    >
+      {brands.map((brand, i) => {
+        return (
+          <div
+            className="brand-slider-item "
+            key={i}
+            style={{ "--position": i } as React.CSSProperties}
+          >
+            <Image src={brand.url} alt={brand.alt} width={200} height={100} />
+          </div>
+        );
+      })}
     </div>
   );
 };

@@ -21,3 +21,43 @@
   height: 100%;
   font-size: 30px;
 }
+
+.brand-slider {
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.brand-slider-item {
+  margin-top: 15px;
+  animation: autoRun 20s linear infinite;
+  animation-delay: calc(20s / var(--count) * var(--position));
+  left: 100%;
+  width: 200px;
+  position: absolute;
+}
+
+@keyframes autoRun {
+  from {
+    left: 100%;
+  }
+  to {
+    left: calc(var(--width) * var(--count) * -1);
+  }
+}
+
+@media (min-width: 992px) {
+  @keyframes autoRun {
+    from {
+      left: 100%;
+    }
+    to {
+      left: calc(var(--width) * -1);
+    }
+  }
+}
+
+.brand-slider:hover .brand-slider-item {
+  animation-play-state: paused;
+}
