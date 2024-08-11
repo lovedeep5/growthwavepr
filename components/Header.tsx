@@ -9,7 +9,9 @@ const Header = () => {
     <header className=" bg-primary sticky w-full top-0 p-4 z-50 backdrop-blur-lg">
       <div className="max-w-screen-2xl mx-auto flex justify-between items-center ">
         <div className="logo font-jost text-white font-bold text-4xl">
-          salon<span className="text-red-500">24</span>.
+          <Link href="/">
+            salon<span className="text-red-500">24</span>.
+          </Link>
         </div>
         <div className="menu hidden md:block">
           <Navbar />

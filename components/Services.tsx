@@ -3,10 +3,10 @@ import Image from "next/image";
 import React from "react";
 
 const services = [
-  { label: "Bridal", image: "/haircut.jpg" },
-  { label: "Skin", image: "/haircut.jpg" },
-  { label: "Nail", image: "/haircut.jpg" },
-  { label: "Makeup", image: "/haircut.jpg" },
+  { label: "Bridal", image: "/services/bridal.jpg" },
+  { label: "Skin", image: "/services/skin.jpg" },
+  { label: "Nails", image: "/services/nails.jpg" },
+  { label: "Hairs", image: "/services/hairs.jpg" },
 ];
 
 const Services = () => {

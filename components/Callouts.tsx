@@ -2,9 +2,9 @@ import Link from "next/link";
 import React from "react";
 
 const callouts = [
-  { line1: "Read", line2: "Reviews", link: "/review" },
+  { line1: "Read", line2: "Reviews", link: "/contact" },
   { line1: "View", line2: "Gallery", link: "/gallery" },
-  { line1: "Join", line2: "Our Team", link: "/team" },
+  { line1: "Join", line2: "Our Team", link: "/contact" },
 ];
 
 const Callouts = () => {

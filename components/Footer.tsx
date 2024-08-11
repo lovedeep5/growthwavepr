@@ -26,10 +26,22 @@ const Footer = () => {
           <span className="font-bold  border-b-4">Links</span>
 
           <ul className="leading-8 mt-5">
-            <li>About</li>
-            <li>Services</li>
-            <li>Gallery</li>
-            <li>Contact</li>
+            <li>
+              {" "}
+              <Link href="/about">About</Link>{" "}
+            </li>
+            <li>
+              {" "}
+              <Link href="/services">Services</Link>{" "}
+            </li>
+            <li>
+              {" "}
+              <Link href="/gallery">Gallery</Link>{" "}
+            </li>
+            <li>
+              {" "}
+              <Link href="/contact">Contact</Link>{" "}
+            </li>
           </ul>
         </div>
 

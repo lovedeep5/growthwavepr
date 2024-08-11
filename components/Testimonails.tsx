@@ -26,7 +26,7 @@ const testimonials: Testimonial[] = [
 const Testimonials: React.FC = () => {
   const showReview = Math.floor(Math.random() * testimonials.length);
   return (
-    <div className="bg-blue-500 w-full bg-[url('/salon1.jpg')] bg-bottom bg-cover pt-52 mb-5 ">
+    <div className="bg-blue-500 w-full bg-[url('/banner/salon1.jpg')] bg-bottom bg-cover pt-52 mb-5 ">
       <div className="bg-primary/90 relative max-w-screen-sm ml-auto">
         <div className="testimonails-content text-center p-14 text-white  ">
           <p className="font-bold text-2xl mb-5">Reviews</p>
