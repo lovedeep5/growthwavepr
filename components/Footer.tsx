@@ -50,7 +50,7 @@ const Footer = () => {
 
           <div className="mt-5 flex gap-4">
             <div className="bg-primary text-white rounded-sm p-2">
-              <Link href="/facebook">
+              <Link href="https://www.facebook.com/theesalon24/">
                 <FacebookIcon />
               </Link>
             </div>
@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
 
             <div className="bg-primary text-white rounded-sm p-2">
-              <Link href="/youtube">
+              <Link href="https://www.youtube.com/channel/UCQR84wfAlTtCmOaxcJDOXWA">
                 <YoutubeIcon />
               </Link>
             </div>
