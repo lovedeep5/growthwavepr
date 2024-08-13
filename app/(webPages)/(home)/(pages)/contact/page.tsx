@@ -8,7 +8,7 @@ const Contact = () => {
     <div className="max-w-screen-xl mx-auto">
       <h1 className="text-3xl mb-5 font-bold">Contact Salon24</h1>
 
-      <div className="grid grid-cols-2 font-light ">
+      <div className="grid grid-cols-1 md:grid-cols-2 font-light ">
         <div>
           <div className="phone flex gap-2 mb-8 justify-start items-center letter tracking-wider ">
             <div className="p-3 bg-primary rounded-full text-white">

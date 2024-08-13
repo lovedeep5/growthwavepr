@@ -8,18 +8,18 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorem, consectetur sint distinctio quis officiis. Doloremque in molestias nesciunt eligendi.",
-    reviewer: "Carl",
+      "Salon24 exceeded my expectations! The staff was friendly, and my haircut and color were perfect. Highly recommend!",
+    reviewer: "Riya",
   },
   {
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorem, consectetur sint distinctio quis officiis. Doloremque in molestias nesciunt eligendi.",
-    reviewer: "Alice",
+      "Salon24 in Patiala is the best! Great ambiance, skilled stylists, and quality service. I wont go anywhere else!",
+    reviewer: "Simran",
   },
   {
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorem, consectetur sint distinctio quis officiis. Doloremque in molestias nesciunt eligendi.",
-    reviewer: "Jhon",
+      "Exceptional service at Salon24. The staff is attentive, and I left feeling rejuvenated. Definitely coming back!",
+    reviewer: "Prabjot Kaur",
   },
 ];
 
