@@ -1,3 +1,4 @@
+import ContactForm from "@/components/ContactForm";
 import { Mail, Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -53,11 +54,11 @@ const Contact = () => {
         {/* Right col */}
         <div>
           <h2 className=" text-2xl font-bold mb-3">Online Request</h2>
-          <p className="text-lg">
+          <p className="text-lg mb-10">
             Feel free to call us to schedule an appointment, or complete our
             form and we will follow up with you.
           </p>
-          <p className="text-lg text-red-700 font-bold">Form coming soon</p>
+          <ContactForm />
         </div>
       </div>
     </div>

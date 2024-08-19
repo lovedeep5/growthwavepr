@@ -5,9 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Salon24.com - Premier Unisex Beauty and Makeup Services in Patiala",
+  title: "Salon24.com - Unisex Beauty and Makeup Services in Patiala",
   description:
-    "Experience top-notch unisex beauty and makeup services at Salon24.com, located in Bhadurgarph, Patiala area. Our skilled professionals offer a comprehensive range of services including haircuts, facials, bridal makeup, and more. At Salon24, we prioritize your beauty and well-being, ensuring you leave our salon looking and feeling your best. Visit us today and discover why we're Patiala's favorite beauty destination!",
+    "Experience top-notch unisex beauty and makeup services at Salon24.com in Bhadurgarh, Patiala. Our skilled professionals offer haircuts, facials, bridal makeup, and more. Visit us today to discover why we're Patiala's favorite beauty destination!",
   keywords:
     "Salon24, unisex beauty services, makeup services, Patiala, haircuts, facials, bridal makeup",
 };
@@ -19,6 +19,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          property="og:title"
+          content="Salon24.com - Unisex Beauty and Makeup Services in Patiala"
+        />
+        <meta
+          property="og:description"
+          content="Experience top-notch unisex beauty and makeup services at Salon24.com in Bhadurgarh, Patiala. Our skilled professionals offer haircuts, facials, bridal makeup, and more."
+        />
+        <meta
+          property="og:image"
+          content="https://salon24.com/seo/og-image.webp"
+        />
+        <meta property="og:url" content="https://salon24.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Salon24" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
