@@ -6,13 +6,13 @@ import { Button } from "./ui/button";
 const Footer = () => {
   return (
     <footer className="pt-4 bg-primary-foreground ">
-      <div className="pt-10 max-w-screen-2xl grid grid-cols-1 md:grid-cols-5 p-4">
+      <div className="pt-10 max-w-screen-2xl mx-auto grid grid-cols-1 md:grid-cols-5 p-4">
         <div className="mb-5 md:col-span-3 ">
           <div className="logo font-jost text-primary font-bold text-4xl mb-3">
             salon<span className="text-red-500">24</span>.
           </div>
           <div className="text-xl  md:text-3xl max-w-screen-sm">
-            Providing the best makeup services in Bhadurgarh, Patiala and the
+            Providing the best makeup services in Bahadurgarh, Patiala and the
             surrounding areas
           </div>
           <div className="pt-5">

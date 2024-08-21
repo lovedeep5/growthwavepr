@@ -7,9 +7,9 @@ const Topbar = () => {
       <div className="max-w-screen-2xl mx-auto p-2 flex flex-col items-center gap-2 lg:flex-row lg:justify-between">
         <div className="text-center text-white">
           <span>
-            website is under construction, for any query please call us{" "}
+            website is under construction, for any query please call us
             <Link href="tel:+918507002222">
-              <span className="font-bold"> 85070-02222 </span>
+              <span className="font-bold"> 8507002222 </span>
             </Link>
           </span>
         </div>

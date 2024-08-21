@@ -39,7 +39,7 @@ const Contact = () => {
           <div className="mb-5">
             <h2 className=" text-2xl font-bold mb-3">Location</h2>
             <span className="text-lg ">
-              Salon24, Seel road, Bhadurgarh, <br /> Patiala, Punjab, 147021
+              Salon24, Seel road, Bahadurgarh, <br /> Patiala, Punjab, 147021
             </span>
             <Link href="#" className="block underline">
               get directions
