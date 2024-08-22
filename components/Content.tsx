@@ -12,13 +12,13 @@ const Content = () => {
           </span>
         </h1>
         <p className="mb-4 leading-7">
-          Experience top-notch unisex beauty and makeup services at Salon24.com,
-          located in Bhadurgarph, Patiala area. Our skilled professionals offer
-          a comprehensive range of services including haircuts, facials, bridal
-          makeup, and more. At Salon24, we prioritize your beauty and
-          well-being, ensuring you leave our salon looking and feeling your
-          best. Visit us today and discover why we&lsquo;re Patiala&lsquo;s
-          favorite beauty destination!
+          Experience top-notch unisex beauty and makeup services at Salon24, we
+          are the best makeup and beauty salon in Bahadurgarh Patiala. Our
+          skilled professionals offer a comprehensive range of services
+          including haircuts, facials, bridal makeup, and more. At Salon24, we
+          prioritize your beauty and well-being, ensuring you leave our salon
+          looking and feeling your best. Visit us today and discover why
+          we&lsquo;re Bahadurgarh Patiala&lsquo;s favorite beauty destination!
         </p>
       </div>
     </div>
