@@ -29,14 +29,14 @@ const CardWrapper = ({
   return (
     <Card className="min-w-[400px] shadow-md ">
       <CardHeader>
-        <CarHeader label={message} />
+        <CarHeader label={message} heading={heading} />
       </CardHeader>
       <CardContent>{children}</CardContent>
       <CardFooter>
         <Social showSocial={showSocial} />
       </CardFooter>
       <CardFooter>
-        <BackButton />
+        <BackButton label={backButton} href={backLink} />
       </CardFooter>
     </Card>
   );
